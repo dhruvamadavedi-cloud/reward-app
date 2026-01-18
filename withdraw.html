@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Withdraw | Earn With Us</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+body{
+    background:#f2f2f2;
+    font-family:Arial;
+}
+.box{
+    background:white;
+    width:320px;
+    margin:80px auto;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.2);
+    text-align:center;
+}
+input,button{
+    width:100%;
+    padding:10px;
+    margin-top:10px;
+}
+button{
+    background:#0b7a2d;
+    color:white;
+    border:none;
+    font-size:16px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="box">
+    <h2>Withdraw Money</h2>
+    <p>Minimum ₹200</p>
+
+    <input type="text" placeholder="Enter UPI ID">
+    <input type="number" placeholder="Enter Amount">
+
+    <button onclick="withdraw()">Request Withdraw</button>
+<button type="button" onclick="location.href='withdraw.html'">
+Withdraw Now
+</button>
+
+    <p style="font-size:13px;color:#555;">PhonePe • GPay • Paytm</p>
+</div>
+
+<script>
+function withdraw(){
+    alert("Withdraw request submitted ✅\nPayment processing within 24 hours");
+}
+</script>
+
+</body>
+</html>
